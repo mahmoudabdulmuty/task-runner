@@ -7,6 +7,7 @@
       v-for="tweet in user.tweets"
       :key="tweet.id"
       :content="tweet.content"
+      :username="user.username"
     />
   </div>
   <button @click="increaseFollowers">Increase Followers</button>
