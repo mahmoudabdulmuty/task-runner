@@ -1,15 +1,11 @@
 <template>
   <div class="container">
-    <h1>Hello world</h1>
+    <Header />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-  components: {},
-};
-</script>
+<script setup>
+import Header from './components/Header.vue';</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
