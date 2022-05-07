@@ -1,24 +1,23 @@
 <template>
-  <user-profile />
+  <div class="container">
+    <h1>Hello world</h1>
+  </div>
 </template>
 
 <script>
-import userProfile from "./components/userProfile.vue";
 export default {
-  components: { userProfile },
-  name: "App",
+  name: 'App',
+  components: {},
 };
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 #app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
